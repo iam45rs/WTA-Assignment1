@@ -1,0 +1,270 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: Century Gothic ;
+	font-size: 25px
+}
+
+h1.title{
+	margin-bottom: 40px;
+	color: #444444;
+	font-family: Comic Sans MS;
+	text-transform: uppercase;
+	font-size: 50px;
+	word-spacing: 35px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+p{
+	margin-bottom: 15px;
+	font-size: 25px;
+	line-height: 50px;
+	color: #000000;
+}
+
+.btn a {
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+    border: 2px solid #fb2274;
+    color: #fb2274;
+    display: block;
+    margin: 25px auto 0;
+    text-align: center;
+}
+
+.main_container{
+	position: relative;
+}
+
+/* Navigation Bar */
+.navbar{
+	width: 100%;
+	height: 65px;
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	float: right;
+}
+
+
+.navbar_items ul{
+	display: flex;
+}
+
+.navbar_items ul li{
+	margin: 0 10px;
+}
+
+.navbar_items ul li a{
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: #fff;
+}
+
+.navbar_items ul li a:hover{
+	color:#000000;
+	transition: all ease-in 0.2s;
+}
+
+/* banner_image */
+.banner_image{
+	background: url('images/1.jpg') no-repeat top center;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner_content{
+	text-align: center;
+	color: #fff;
+}
+
+.banner_content h1{
+	text-transform: uppercase;
+	line-height: 38px;
+	margin-bottom: 15px;
+}
+
+.banner_content h1 span{
+	color: #fb2274;
+}
+
+
+/* About */
+.About,
+.services,
+.contactus,
+.ourteam{
+	text-align: justify;
+	padding: 5% 10%;
+}
+
+.bann{
+	background: #ffffff;
+	padding-top: -50px;
+	margin: 50px auto;
+	display: flex;
+	justify-content: center;
+}
+
+.Career{
+	background:#F0F8FF;
+	justify-content: center;
+	margin: 50px auto;
+	margin-bottom: 15px;
+	font-size: 25px;
+	line-height: 50px;
+	color: #000000;
+	padding: 100px;
+	text-align: justify;
+}
+
+.Movies{
+    margin-top: 35px;
+    display: flex;
+    
+}
+
+
+.Movies .m1 img{
+	width: 70%;
+	height: 300px;
+}
+
+.Movies .m2 img{
+	width: 100%;
+	height: 300px;
+}
+
+.Movies .m3 img{
+	width: 80%;
+	height: 300px;
+
+}
+
+.Movies .m1 h3{
+	color: #000;
+	text-align: center;
+    
+}
+
+.Movies .m1:hover img{
+	transform: scale(1.1);
+}
+
+.Movies .m2:hover img{
+	transform: scale(1.1);
+}
+
+.Movies .m3:hover img{
+	transform: scale(1.1);
+}
+
+.PF{
+	background:#FFFFE0;
+	justify-content: center;
+	margin: 50px auto;
+	margin-bottom: 15px;
+	font-size: 25px;
+	line-height: 50px;
+	color: #000000;
+	padding: 100px;
+	text-align: justify;
+}
+
+.pyp img{
+	width: 30%;
+	height: 300px;
+}
+
+.pyp:hover img{
+	transform: scale(1.1);
+}
+
+.film{
+	background:#34495e;
+	justify-content: center;
+	padding: 70px;
+	text-align: justify;
+}
+.film table, th,td, tr{
+	border:2px solid #fff;
+	justify-content: center;
+}
+
+.death{
+	background:#F0F8FF;
+	justify-content: center;
+	margin: 50px auto;
+	margin-bottom: 15px;
+	font-size: 25px;
+	line-height: 50px;
+	color: #000000;
+	padding: 100px;
+	text-align: justify;
+}
+
+.cc img{
+	width: 50%;
+	height: 400px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.cc:hover img{
+	transform: scale(1.1);
+}
+
+
+
+/* footer */
+.footer{
+	width: 100%;
+	text-align: center;
+	background: #444444;
+	padding: 20px 0;
+}
+
+.footer a{
+	color: #fff;
+}
+
+
+
+@media (max-width: 720px){
+
+	.navbar{
+		height: auto;
+		flex-direction: column;
+	}
+
+	.logo{
+		margin-bottom: 25px;
+	}
+
+	.navbar_items ul{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.navbar_items ul li{
+		margin-bottom:5px;
+	}
+
+	.banner_content{
+		margin-top: 35px;
+	}
+
+}
+
+
